@@ -1,26 +1,25 @@
-# Antrucs Universe Website — Redesign
+ANTRUCS UNIVERSE — ANIMATED + SEARCH-READY WEBSITE
 
-This is a single-file, responsive website for the Antrucs Universe (AU), designed for GitHub Pages.
+FILES
+- index.html: website homepage with subtle animations, mobile navigation, character search, SEO metadata and structured data.
+- assets/antrucs-universe-hero.png: homepage artwork.
+- robots.txt: tells search crawlers they may index the public site and points to the sitemap.
+- sitemap.xml: lists the public homepage URL for search engines.
 
-## Publish it to your existing GitHub Pages site
+PUBLISHING ON GITHUB PAGES
+1. Open https://github.com/venomjade15-lgtm/antrucs-universe
+2. Upload/replace index.html at the repository root.
+3. Upload robots.txt and sitemap.xml at the repository root.
+4. Ensure assets/antrucs-universe-hero.png exists at that exact path.
+5. Commit directly to main.
+6. Open https://venomjade15-lgtm.github.io/antrucs-universe/ and hard-refresh with Ctrl+F5.
 
-1. Extract the ZIP first and keep the `assets` folder beside `index.html` when uploading.
-2. Open https://github.com/venomjade15-lgtm/antrucs-universe
-3. Open `index.html`.
-4. Click the pencil/edit icon.
-5. Replace the file contents with the contents of the supplied `index.html`.
-   - Easier option: use **Add file → Upload files** to upload this `index.html` and confirm replacing the existing file if prompted.
-6. Upload the `assets` folder and its image too, keeping the exact folder name `assets`, then commit all changes to the `main` branch.
-7. Wait a minute or two, then visit https://venomjade15-lgtm.github.io/antrucs-universe/
+GETTING DISCOVERED ON GOOGLE
+After publishing, open https://search.google.com/search-console/ and add the exact URL-prefix property:
+https://venomjade15-lgtm.github.io/antrucs-universe/
+Follow Google's ownership verification instructions. Then submit:
+https://venomjade15-lgtm.github.io/antrucs-universe/sitemap.xml
+You can also use URL Inspection to request indexing for the homepage. Google may take days or weeks to crawl/index a new site; submission is a request, not a guarantee of ranking or inclusion.
 
-## Notes
-
-- No build tools, React installation, or external libraries are required.
-- It works as a static GitHub Pages website.
-- The page uses custom CSS gradients and shapes as cinematic placeholder artwork, so it does not depend on licensed images.
-- Character details and plot elements not yet confirmed by the creator are labelled as in development instead of being treated as official canon.
-- Replace the abstract poster art with your own approved character/movie images as they become available.
-
-
-## Included artwork
-- `assets/antrucs-universe-hero.png` — original generated cinematic banner artwork used behind the homepage hero section.
+ANIMATION ACCESSIBILITY
+Scroll reveals and ambient effects respect the visitor's reduced-motion accessibility setting.
